@@ -1,0 +1,7 @@
+{
+  "destination_address": "localhost",
+  "port": 8000,
+  "player_name": "test",
+  "magicka_enabled": true,
+  "fatigue_enabled": true
+}
