@@ -1,6 +1,14 @@
 # -TES3MP-AlliedStats
 Python client and server aiming to display Health, Magicka and Fatigue bars for allies of players via lua script that regularly generates .json that is further read by server.
 
+## Important notes
+The lua script takes advantage of the new 0.8 feature that enables players to create alliances:
+- type /invite <pid> in chat to invite another player to become your ally
+- other player has to accept the invitation (notification will be displayed in chat) by typing /join <pid> in chat
+- to leave alliance with specific player type /leave <pid> in chat
+
+The gui overlay won't unfortunately be visible in fullscreen, you need to turn it off.
+
 ## Supported OS
 Windows
 
